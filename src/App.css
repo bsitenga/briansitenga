@@ -111,21 +111,52 @@ body {
     width: 55vw;
 }
 
+#welcome .welcome-contact {
+    margin-top: 30px;
+}
+
 #welcome .welcome-contact a {
     display: inline-block;
-    margin-right: 1.5vw;
-    margin-left: 1.5vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
     /* color: #111142; */
     color: #FDFDFD;
+    transition: 1s;
+}
+
+#welcome .welcome-contact a:hover {
+    text-decoration: none;
 }
 
 #welcome .welcome-contact i {
     display: block;
-    font-size: 3vw;
+    font-size: 2.5vw;
+    margin-bottom: 4px;
 }
 
 #welcome .welcome-contact p {
     display: inline-block;
+    font-size: 1.25vw;
+}
+
+#welcome .welcome-contact a.instagram:hover {
+    color: #E02C73;
+}
+
+#welcome .welcome-contact a.linkedin:hover {
+    color: #0077B5;
+}
+
+#welcome .welcome-contact a.github:hover {
+    color: #13181d;
+}
+
+#welcome .welcome-contact a.facebook:hover {
+    color: #4267b2;
+}
+
+#welcome .welcome-contact a.email:hover {
+    color: #D54B3D;
 }
 
 img {

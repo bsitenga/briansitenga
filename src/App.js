@@ -56,11 +56,11 @@ function App() {
           </div>
           <hr></hr>
           <div className="welcome-contact">
-            <a href="https://www.instagram.com/brian.sitenga/?hl=en" target="_blank"><i class="fab fa-instagram"></i><p>Instagram</p></a>
-            <a href="" target="_blank"><i class="fab fa-linkedin-in"></i><p>Linkedin</p></a>
-            <a href="" target="_blank"><i class="fab fa-github"></i><p>Github</p></a>
-            <a href="" target="_blank"><i class="fab fa-facebook-f"></i><p>Facebook</p></a>
-            <a href="" target="_blank"><i class="far fa-envelope"></i><p>Email</p></a>
+            <a className="instagram" href="https://www.instagram.com/brian.sitenga/?hl=en" target="_blank"><i class="fab fa-instagram"></i><p>Instagram</p></a>
+            <a className="linkedin" href="" target="_blank"><i class="fab fa-linkedin-in"></i><p>Linkedin</p></a>
+            <a className="github" href="" target="_blank"><i class="fab fa-github"></i><p>Github</p></a>
+            <a className="facebook" href="" target="_blank"><i class="fab fa-facebook-f"></i><p>Facebook</p></a>
+            <a className="email" href="" target="_blank"><i class="far fa-envelope"></i><p>Email</p></a>
           </div>
         </div>
         <div className="scroll-down">
