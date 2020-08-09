@@ -34,7 +34,7 @@ function App() {
       <div id="welcome">
         <div className="welcome-info">
           <div className="welcome-text">
-            <h1>Hi, I'm Brian</h1>
+            <h1>Hello, I'm Brian.</h1>
             <h4>I'm a fullstack developer working with {typistReset ? <Typist startDelay={500} avgTypingDelay={65} onTypingDone={() => setTypistReset(false)} >
               <span>React</span>
               <Typist.Backspace count={20} delay={3000} />
@@ -57,20 +57,30 @@ function App() {
           <hr></hr>
           <div className="welcome-contact">
             <a className="instagram" href="https://www.instagram.com/brian.sitenga/?hl=en" target="_blank"><i class="fab fa-instagram"></i><p>Instagram</p></a>
-            <a className="linkedin" href="" target="_blank"><i class="fab fa-linkedin-in"></i><p>Linkedin</p></a>
-            <a className="github" href="" target="_blank"><i class="fab fa-github"></i><p>Github</p></a>
-            <a className="facebook" href="" target="_blank"><i class="fab fa-facebook-f"></i><p>Facebook</p></a>
-            <a className="email" href="" target="_blank"><i class="far fa-envelope"></i><p>Email</p></a>
+            <a className="linkedin" href="https://www.linkedin.com/in/bsitenga/" target="_blank"><i class="fab fa-linkedin-in"></i><p>Linkedin</p></a>
+            <a className="github" href="https://github.com/bsitenga" target="_blank"><i class="fab fa-github"></i><p>Github</p></a>
+            <a className="facebook" href="https://www.facebook.com/bsitenga" target="_blank"><i class="fab fa-facebook-f"></i><p>Facebook</p></a>
+            <a className="email" href="mailto: bsitenga@gmail.com" target="_blank"><i class="far fa-envelope"></i><p>Email</p></a>
           </div>
         </div>
         <div className="scroll-down">
-          Scroll down
+          <i class="fas fa-chevron-down"></i>
         </div>
       </div>
 
       {/* About Section */}
       <div id="about-me">
-        <h1>jo, U'b Ntoam</h1>
+        <img src="WinterProfilePicCropped.jpg"></img>
+        <p className="section-title">ABOUT ME</p>
+        <hr></hr>
+        <div className="about-me-text">
+          <p>Hi, my name is Brian Sitenga.</p>
+          <p>I'm earning my bachelor's of science in computer science and business at the University of Southern California.</p>
+          <p>I love making interactive websites with the MERN stack and learning more about component-based architecture. I'm also very passionte about the environment, and I'm currently collaborating on a sustainability-focused project here.</p>
+          <p>What I'm doing right now: Learning and making hobby projects in Angular</p>
+        </div>
+        <p className="section-title" style={{marginTop: "50px"}}>PORTFOLIO</p>
+        <hr></hr>
       </div>
 
       {/* Portfolio Section */}

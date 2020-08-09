@@ -64,7 +64,7 @@ body {
 }
 
 #welcome .welcome-info {
-    height: 400px;
+    height: 375px;
     margin: 0 auto;
     text-align: center;
 }
@@ -159,9 +159,44 @@ body {
     color: #D54B3D;
 }
 
-img {
-    width: 15vw;
+#welcome .scroll-down {
+    text-align: center;
+    font-size: 55px;
+    color: #FB654A;
+}
+
+#welcome .scroll-down i:hover {
+    cursor: pointer;
+}
+
+/* About Section */
+
+#about-me {
+    text-align: center;
+    background: #F1F1F1;
+}
+
+#about-me img {
+    margin-top: 50px;
+    width: 18vw;
     border-radius: 50%;
     border: 2px solid #FB654A;
-    display: inline-block;
+}
+
+#about-me .section-title {
+    margin-top: 15px;
+    font-size: 2.5vw;
+    margin-bottom: 16px;
+}
+
+#about-me hr {
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 10vw;
+}
+
+#about-me .about-me-text {
+    font-size: 1.5vw;
+    width: 60vw;
+    margin: 0 auto;
 }
