@@ -111,6 +111,23 @@ body {
     width: 55vw;
 }
 
+#welcome .welcome-contact a {
+    display: inline-block;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+    /* color: #111142; */
+    color: #FDFDFD;
+}
+
+#welcome .welcome-contact i {
+    display: block;
+    font-size: 3vw;
+}
+
+#welcome .welcome-contact p {
+    display: inline-block;
+}
+
 img {
     width: 15vw;
     border-radius: 50%;

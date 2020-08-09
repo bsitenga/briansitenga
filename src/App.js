@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="master-container">
       {/* Navigation */}
-      <Navbar bg="light"  fixed="top">
+      <Navbar bg="light" fixed="top">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto" id="links-div">
@@ -56,11 +56,11 @@ function App() {
           </div>
           <hr></hr>
           <div className="welcome-contact">
-            Google+
-            Linkedin
-            Github
-            Facebook
-            Email
+            <a href="https://www.instagram.com/brian.sitenga/?hl=en" target="_blank"><i class="fab fa-instagram"></i><p>Instagram</p></a>
+            <a href="" target="_blank"><i class="fab fa-linkedin-in"></i><p>Linkedin</p></a>
+            <a href="" target="_blank"><i class="fab fa-github"></i><p>Github</p></a>
+            <a href="" target="_blank"><i class="fab fa-facebook-f"></i><p>Facebook</p></a>
+            <a href="" target="_blank"><i class="far fa-envelope"></i><p>Email</p></a>
           </div>
         </div>
         <div className="scroll-down">
