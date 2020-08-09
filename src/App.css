@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500;600;700;800&display=swap');
 
 /* COLOR SCHEME: Bright Accent - Blue/Violet base, Red/Orange accents */
 /* Main Background: #2026B2,
@@ -12,7 +12,7 @@ White: #FDFDFD */
 /* Body */
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Prompt', sans-serif;
 }
 
 /* Bootstrap Navbar */
@@ -20,6 +20,7 @@ body {
 .bg-light.navbar-light {
     background-color: #2026B2!important;
     padding-bottom: 6px;
+    /* border-bottom: 1px solid #FDFDFD; */
 }
 
 #links-div {
@@ -28,23 +29,24 @@ body {
 
 .nav-link {
     display: inline-block;
-    font-size: 1.25vw;
+    font-size: 1vw;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: white;
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link:hover {
-    color: white;
+    color: #FDFDFD;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+    color: #FDFDFD;
+}
+
+.navbar-light .navbar-nav .nav-link.is-current {
+    color: #FB654A;
+    border-bottom: 3px solid #FB654A ;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: white;
+    color: #F64C72;
 }
 
 /* Welcome Section */
@@ -53,4 +55,16 @@ body {
     padding-top: 45px;
     height: 500px;
     background-color: #2026B2;
+}
+
+#welcome h1 {
+    color: #FDFDFD;
+}
+
+#welcome h4 {
+    color: #FDFDFD;
+}
+
+#welcome h4 span {
+    color: #FB654A;
 }
