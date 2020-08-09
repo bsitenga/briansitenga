@@ -8,20 +8,22 @@ function App() {
   return (
     <div className="master-container">
       {/* Navigation */}
-      <Scrollspy style={{ paddingLeft: '0', marginBottom: '0' }} className="scrollspy" items={['welcome', 'about-me', 'portfolio', 'skills', 'contact']} currentClassName="is-current">
+      
         <Navbar bg="light" expand="sm" fixed="top">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto" id="#links-div">
+            <Nav className="mr-auto" id="links-div">
+            <Scrollspy style={{ display: 'inline-block', paddingInlineStart: '0', margin: '0 auto', }} className="scrollspy" items={['welcome', 'about-me', 'portfolio', 'skills', 'contact']} currentClassName="is-current">
               <Nav.Link href="#welcome">Welcome</Nav.Link>
               <Nav.Link href="#about-me">About Me</Nav.Link>
               <Nav.Link href="#portfolio">Portfolio</Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
+              </Scrollspy>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-      </Scrollspy>
+      
 
       {/* Welcome Hero */}
       <div id="welcome">

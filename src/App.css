@@ -1,11 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* Body */
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 /* Bootstrap Navbar */
+
 .bg-light.navbar-light {
-    background-color:transparent!important;
+    background-color: transparent!important;
 }
 
-#links-div .active-link {
-
+#links-div {
+    margin: 0 auto;
 }
+
+.nav-link {
+    display: inline-block;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+/* Welcome Section */
 
 #welcome {
     padding-top: 45px;
