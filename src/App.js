@@ -14,11 +14,11 @@ function App() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto" id="links-div">
             <Scrollspy style={{ display: 'inline-block', paddingInlineStart: '0', margin: '0 auto', }} className="scrollspy" items={['welcome', 'about-me', 'portfolio', 'skills', 'contact']} currentClassName="is-current">
-              <Nav.Link href="#welcome">Welcome</Nav.Link>
-              <Nav.Link href="#about-me">About Me</Nav.Link>
-              <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-              <Nav.Link href="#skills">Skills</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+              <Nav.Link href="#welcome">WELCOME</Nav.Link>
+              <Nav.Link href="#about-me">ABOUT ME</Nav.Link>
+              <Nav.Link href="#portfolio">PORTFOLIO</Nav.Link>
+              <Nav.Link href="#skills">SKILLS</Nav.Link>
+              <Nav.Link href="#contact">CONTACT</Nav.Link>
               </Scrollspy>
             </Nav>
           </Navbar.Collapse>
@@ -28,6 +28,7 @@ function App() {
       {/* Welcome Hero */}
       <div id="welcome">
         <h1>jo, U'b Ntoam</h1>
+        <h4>I'm a fullstck developer working with <span></span></h4>
       </div>
 
       {/* About Section */}
