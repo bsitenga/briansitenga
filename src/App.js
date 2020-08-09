@@ -35,7 +35,7 @@ function App() {
         <div className="welcome-info">
           <div className="welcome-text">
             <h1>Hi, I'm Brian</h1>
-            <h4>I'm a fullstack developer working with {typistReset ? <Typist avgTypingDelay={65} onTypingDone={() => setTypistReset(false)} >
+            <h4>I'm a fullstack developer working with {typistReset ? <Typist startDelay={500} avgTypingDelay={65} onTypingDone={() => setTypistReset(false)} >
               <span>React</span>
               <Typist.Backspace count={20} delay={3000} />
               <span>Express</span>
@@ -51,8 +51,20 @@ function App() {
               <span>Javascript</span>
               <Typist.Backspace count={20} delay={3000} />
               <span>C++</span>
+              <Typist.Backspace count={20} delay={3000} />
             </Typist> : ""}</h4>
           </div>
+          <hr></hr>
+          <div className="welcome-contact">
+            Google+
+            Linkedin
+            Github
+            Facebook
+            Email
+          </div>
+        </div>
+        <div className="scroll-down">
+          Scroll down
         </div>
       </div>
 
