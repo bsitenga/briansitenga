@@ -1,0 +1,14 @@
+/* Bootstrap Navbar */
+.bg-light.navbar-light {
+    background-color:transparent!important;
+}
+
+#links-div .active-link {
+
+}
+
+#welcome {
+    padding-top: 45px;
+    height: 500px;
+    background-color: #25274D;
+}
