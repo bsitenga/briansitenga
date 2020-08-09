@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="master-container">
       {/* Navigation */}
-      <Navbar bg="light" expand="sm" fixed="top">
+      <Navbar bg="light"  fixed="top">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto" id="links-div">
@@ -32,24 +32,28 @@ function App() {
 
       {/* Welcome Hero */}
       <div id="welcome">
-        <h1>jo, U'b Ntoam</h1>
-        <h4>I'm a fullstck developer working with {typistReset ? <Typist avgTypingDelay={75} onTypingDone={() => setTypistReset(false)} >
-          <span>React</span>
-          <Typist.Backspace count={20} delay={2000} />
-          <span>Express</span>
-          <Typist.Backspace count={20} delay={2000} />
-          <span>MongoDB</span>
-          <Typist.Backspace count={20} delay={2000} />
-          <span>GraphQL</span>
-          <Typist.Backspace count={20} delay={2000} />
-          <span>React Native</span>
-          <Typist.Backspace count={20} delay={2000} />
-          <span>Bootstrap</span>
-          <Typist.Backspace count={20} delay={2000} />
-          <span>Javascript</span>
-          <Typist.Backspace count={20} delay={2000} />
-          <span>C++</span>
-        </Typist> : ""}</h4>
+        <div className="welcome-info">
+          <div className="welcome-text">
+            <h1>Hi, I'm Brian</h1>
+            <h4>I'm a fullstack developer working with {typistReset ? <Typist avgTypingDelay={65} onTypingDone={() => setTypistReset(false)} >
+              <span>React</span>
+              <Typist.Backspace count={20} delay={3000} />
+              <span>Express</span>
+              <Typist.Backspace count={20} delay={3000} />
+              <span>MongoDB</span>
+              <Typist.Backspace count={20} delay={3000} />
+              <span>GraphQL</span>
+              <Typist.Backspace count={20} delay={3000} />
+              <span>React Native</span>
+              <Typist.Backspace count={20} delay={3000} />
+              <span>Bootstrap</span>
+              <Typist.Backspace count={20} delay={3000} />
+              <span>Javascript</span>
+              <Typist.Backspace count={20} delay={3000} />
+              <span>C++</span>
+            </Typist> : ""}</h4>
+          </div>
+        </div>
       </div>
 
       {/* About Section */}
