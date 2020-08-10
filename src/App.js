@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
 import Typist from 'react-typist';
 
 function App() {
@@ -67,7 +68,7 @@ function App() {
           </div>
         </div>
         <div className="scroll-down">
-          <i class="fas fa-chevron-down" onClick={() => {window.scrollTo({top: 450, left: 0, behavior: 'smooth'})}}></i>
+          <i class="fas fa-chevron-down" onClick={() => { window.scrollTo({ top: 450, left: 0, behavior: 'smooth' }) }}></i>
         </div>
       </div>
 
@@ -81,7 +82,7 @@ function App() {
           <p>I'm earning my bachelor's of science in computer science and business at the University of Southern California.</p>
           <p>I love making interactive websites with the MERN stack and learning more about component-based architecture. I'm also very passionte about the environment, and I'm currently collaborating on a sustainability-focused project here.</p>
           <p>What I'm doing right now: Learning and making hobby projects with Angular</p>
-          <a href="/Brian_Sitenga_Resume.pdf" target="_blank"><button style={{marginTop: '12px'}}>Resumé <i class="far fa-file-alt"></i></button></a>
+          <a href="/Brian_Sitenga_Resume.pdf" target="_blank"><button style={{ marginTop: '12px' }}>Resumé <i class="far fa-file-alt"></i></button></a>
         </div>
       </div>
 
@@ -105,12 +106,53 @@ function App() {
       <div id="skills">
         <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>SKILLS</p>
         <hr className="section-divider"></hr>
-        a
+        <div className="skills-content">
+          <Container>
+            <Row>
+              <Col lg={4} style={{padding: "0"}}>
+                <Card>
+                  <Card.Body>
+                    <Card.Title>Card title</Card.Title>
+                    <Card.Text>
+                      This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This card has even longer content than the first to
+                      show that equal height action.
+                  </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col lg={4} style={{padding: "0"}}>
+                <Card>
+                  <Card.Body>
+                    <Card.Title>Card title</Card.Title>
+                    <Card.Text>
+                      This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This card has even longer content than the first to
+                      show that equal height action.
+                  </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col lg={4} style={{padding: "0"}}>
+                <Card>
+                  <Card.Body>
+                    <Card.Title>Card title</Card.Title>
+                    <Card.Text>
+                      This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This card has even longer content than the first to
+                      show that equal height action.
+                  </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </div>
 
       {/* Contact Section */}
       <div id="contact">
-      <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>CONTACT</p>
+        <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>CONTACT</p>
         <hr className="section-divider"></hr>
         a
       </div>
