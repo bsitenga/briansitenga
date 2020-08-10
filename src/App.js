@@ -109,45 +109,62 @@ function App() {
         <div className="skills-content">
           <Container>
             <Row>
-              <Col lg={4} style={{padding: "0"}}>
+              <Col lg={4} style={{ padding: "0" }}>
                 <Card>
-                  <Card.Body style={{paddingTop: '5vh'}}>
-                    <Card.Title style={{fontSize: "2.5vw", color: "#2026B2"}}><i class="far fa-edit"></i></Card.Title>
-                    <Card.Title style={{fontSize: "2vw"}}>Design</Card.Title>
+                  <Card.Body style={{ paddingTop: '5vh' }}>
+                    <Card.Title style={{ fontSize: "2.5vw", color: "#2026B2" }}><i class="far fa-edit"></i></Card.Title>
+                    <Card.Title style={{ fontSize: "2vw" }}>Design</Card.Title>
                     <Card.Text>
                       <p className="subtitle">Things I design</p>
-                      <p className="subtext" style={{marginBottom: ".75rem"}}>UI/UX, Web, Mobile, App</p>
+                      <p className="subtext">App</p>
+                      <p className="subtext">Mobile</p>
+                      <p className="subtext">UI/UX</p>
+                      <p className="subtext" style={{ marginBottom: ".75rem" }}>Web</p>
                       <p className="subtitle">Design Tools</p>
                       <p className="subtext">Pen &amp; Paper</p>
                       <p className="subtext">Photoshop</p>
-                      
-                  </Card.Text>
+                    </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
-              <Col lg={4} style={{padding: "0"}}>
+              <Col lg={4} style={{ padding: "0" }}>
                 <Card>
-                  <Card.Body style={{paddingTop: '5vh'}}>
-                    <Card.Title style={{fontSize: "2.5vw", color: "#2026B2"}}><i class="far fa-window-maximize"></i></Card.Title>
-                    <Card.Title style={{fontSize: "2vw"}}>Frontend</Card.Title>
+                  <Card.Body style={{ paddingTop: '5vh' }}>
+                    <Card.Title style={{ fontSize: "2.5vw", color: "#2026B2" }}><i class="far fa-window-maximize"></i></Card.Title>
+                    <Card.Title style={{ fontSize: "2vw" }}>Frontend</Card.Title>
                     <Card.Text>
-                      This is a wider card with supporting text below as a natural lead-in to
-                      additional content. This card has even longer content than the first to
-                      show that equal height action.
-                  </Card.Text>
+                      <p className="subtitle">Languages</p>
+                      <p className="subtext">CSS</p>
+                      <p className="subtext">HTML</p>
+                      <p className="subtext" style={{ marginBottom: ".75rem" }}>JavaScript (ES6)</p>
+                      <p className="subtitle">Technologies</p>
+                      <p className="subtext">Bootstrap</p>
+                      <p className="subtext">Flexbox</p>
+                      <p className="subtext">jQuery</p>
+                      <p className="subtext">React</p>
+                      <p className="subtext">React Native</p>
+                      <p className="subtext">Redux</p>
+                    </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
-              <Col lg={4} style={{padding: "0"}}>
+              <Col lg={4} style={{ padding: "0" }}>
                 <Card>
-                  <Card.Body style={{paddingTop: '5vh'}}>
-                    <Card.Title style={{fontSize: "2.5vw", color: "#2026B2"}}><i class="fas fa-terminal"></i></Card.Title>
-                    <Card.Title style={{fontSize: "2vw"}}>Backend</Card.Title>
+                  <Card.Body style={{ paddingTop: '5vh' }}>
+                    <Card.Title style={{ fontSize: "2.5vw", color: "#2026B2" }}><i class="fas fa-terminal"></i></Card.Title>
+                    <Card.Title style={{ fontSize: "2vw" }}>Backend</Card.Title>
                     <Card.Text>
-                      This is a wider card with supporting text below as a natural lead-in to
-                      additional content. This card has even longer content than the first to
-                      show that equal height action.
-                  </Card.Text>
+                      <p className="subtitle">Languages</p>
+                      <p className="subtext">C++</p>
+                      <p className="subtext" style={{ marginBottom: ".75rem" }}>Java</p>
+                      <p className="subtitle">Technologies</p>
+                      <p className="subtext">Express.js</p>
+                      <p className="subtext">GraphQL</p>
+                      <p className="subtext">MongoDB</p>
+                      <p className="subtext">Node.js</p>
+                      <p className="subtext">NPM</p>
+                      <p className="subtext">WebSockets</p>
+                    </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
