@@ -3,6 +3,9 @@ import './App.css';
 import Scrollspy from 'react-scrollspy';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Typist from 'react-typist';
 
 function App() {
@@ -77,7 +80,7 @@ function App() {
           <p>Hi, my name is Brian Sitenga.</p>
           <p>I'm earning my bachelor's of science in computer science and business at the University of Southern California.</p>
           <p>I love making interactive websites with the MERN stack and learning more about component-based architecture. I'm also very passionte about the environment, and I'm currently collaborating on a sustainability-focused project here.</p>
-          <p>What I'm doing right now: Learning and making hobby projects in Angular</p>
+          <p>What I'm doing right now: Learning and making hobby projects with Angular</p>
           <a href="/Brian_Sitenga_Resume.pdf" target="_blank"><button style={{marginTop: '12px'}}>Resumé <i class="far fa-file-alt"></i></button></a>
         </div>
       </div>
@@ -87,7 +90,14 @@ function App() {
         <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>PORTFOLIO</p>
         <hr className="section-divider"></hr>
         <div className="portfolio-items">
-          a
+          <Container>
+            <Row>
+              <Col lg={4}><img src="RowloggerTestImage.PNG"></img></Col>
+              <Col lg={4}><img src="RowloggerTestImage.PNG"></img></Col>
+              <Col lg={4}><img src="RowloggerTestImage.PNG"></img></Col>
+            </Row>
+          </Container>
+          <a href="https://github.com/bsitenga" target="_blank"><button>See More <i class="fab fa-github"></i></button></a>
         </div>
       </div>
 

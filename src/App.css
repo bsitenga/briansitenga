@@ -20,7 +20,7 @@ body {
 .bg-light.navbar-light {
     background-color: #2026B2!important;
     padding-bottom: 6px;
-    /* border-bottom: 1px solid #FDFDFD; */
+    border-bottom: 2px solid #F64C72;
 }
 
 #links-div {
@@ -48,7 +48,7 @@ body {
 
 .navbar-light .navbar-nav .nav-link.is-current {
     color: #FB654A;
-    border-bottom: 3px solid #FB654A;
+    /* border-bottom: 3px solid #FB654A; */
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -61,6 +61,8 @@ body {
     padding-top: 50px;
     height: 500px;
     background-color: #2026B2;
+    background: rgb(32,38,178);
+background: radial-gradient(circle, rgba(32,38,178,1) 0%, rgba(47,47,162,1) 100%);
 }
 
 #welcome .welcome-info {
@@ -187,18 +189,21 @@ body {
     margin-top: 15px;
     font-size: 2.5vw;
     margin-bottom: 16px;
+    color: #222;
 }
 
 hr.section-divider {
     margin-top: 0;
     margin-bottom: 20px;
     width: 10vw;
+    background-color: #F64C72;
 }
 
 #about-me .about-me-text {
     font-size: 1.5vw;
     width: 60vw;
     margin: 0 auto;
+    color: #333;
 }
 
 .about-me-text button:hover {
@@ -211,6 +216,23 @@ hr.section-divider {
 #portfolio {
     background: #F1F1F1;
     text-align: center;
+}
+
+#portfolio img {
+    width: 100%;
+    max-width: 60vw;
+    transition: 1s;
+    box-shadow: 4px 5px 2px 1px #DDD;
+    margin-bottom: 35px;
+}
+
+#portfolio img:hover {
+    filter: brightness(50%);
+}
+
+#portfolio button:hover {
+    color: #FB654A;
+    border-color: #FB654A;
 }
 
 /* Skills Section */
