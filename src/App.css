@@ -61,8 +61,8 @@ body {
     padding-top: 50px;
     height: 500px;
     background-color: #2026B2;
-    background: rgb(32,38,178);
-background: radial-gradient(circle, rgba(32,38,178,1) 0%, rgba(47,47,162,1) 100%);
+    background: rgb(32, 38, 178);
+    background: radial-gradient(circle, rgba(32, 38, 178, 1) 0%, rgba(47, 47, 162, 1) 100%);
 }
 
 #welcome .welcome-info {
@@ -228,6 +228,7 @@ hr.section-divider {
 
 #portfolio img:hover {
     filter: brightness(50%);
+    cursor: pointer;
 }
 
 #portfolio button:hover {
@@ -241,6 +242,19 @@ hr.section-divider {
     text-align: center;
     background: #F1F1F1;
 }
+
+#skills .subtitle {
+    font-size: 1.5vw;
+    color: #2026B2;
+    margin-bottom: .3rem;
+}
+
+#skills .subtext {
+    font-size: 1.25vw;
+    margin-bottom: .2rem;
+}
+
+/* Contact Section */
 
 #contact {
     text-align: center;

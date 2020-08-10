@@ -111,8 +111,25 @@ function App() {
             <Row>
               <Col lg={4} style={{padding: "0"}}>
                 <Card>
-                  <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                  <Card.Body style={{paddingTop: '5vh'}}>
+                    <Card.Title style={{fontSize: "2.5vw", color: "#2026B2"}}><i class="far fa-edit"></i></Card.Title>
+                    <Card.Title style={{fontSize: "2vw"}}>Design</Card.Title>
+                    <Card.Text>
+                      <p className="subtitle">Things I design</p>
+                      <p className="subtext" style={{marginBottom: ".75rem"}}>UI/UX, Web, Mobile, App</p>
+                      <p className="subtitle">Design Tools</p>
+                      <p className="subtext">Pen &amp; Paper</p>
+                      <p className="subtext">Photoshop</p>
+                      
+                  </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col lg={4} style={{padding: "0"}}>
+                <Card>
+                  <Card.Body style={{paddingTop: '5vh'}}>
+                    <Card.Title style={{fontSize: "2.5vw", color: "#2026B2"}}><i class="far fa-window-maximize"></i></Card.Title>
+                    <Card.Title style={{fontSize: "2vw"}}>Frontend</Card.Title>
                     <Card.Text>
                       This is a wider card with supporting text below as a natural lead-in to
                       additional content. This card has even longer content than the first to
@@ -123,20 +140,9 @@ function App() {
               </Col>
               <Col lg={4} style={{padding: "0"}}>
                 <Card>
-                  <Card.Body>
-                    <Card.Title>Card title</Card.Title>
-                    <Card.Text>
-                      This is a wider card with supporting text below as a natural lead-in to
-                      additional content. This card has even longer content than the first to
-                      show that equal height action.
-                  </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col lg={4} style={{padding: "0"}}>
-                <Card>
-                  <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                  <Card.Body style={{paddingTop: '5vh'}}>
+                    <Card.Title style={{fontSize: "2.5vw", color: "#2026B2"}}><i class="fas fa-terminal"></i></Card.Title>
+                    <Card.Title style={{fontSize: "2vw"}}>Backend</Card.Title>
                     <Card.Text>
                       This is a wider card with supporting text below as a natural lead-in to
                       additional content. This card has even longer content than the first to
