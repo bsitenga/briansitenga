@@ -64,7 +64,7 @@ function App() {
           </div>
         </div>
         <div className="scroll-down">
-          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-down" onClick={() => {window.scrollTo({top: 450, left: 0, behavior: 'smooth'})}}></i>
         </div>
       </div>
 
@@ -93,12 +93,16 @@ function App() {
 
       {/* Skills Section */}
       <div id="skills">
-        <h1>jo, U'b Ntoam</h1>
+        <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>SKILLS</p>
+        <hr className="section-divider"></hr>
+        a
       </div>
 
       {/* Contact Section */}
       <div id="contact">
-        <h1>jo, U'b Ntoam</h1>
+      <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>CONTACT</p>
+        <hr className="section-divider"></hr>
+        a
       </div>
     </div >
   );
