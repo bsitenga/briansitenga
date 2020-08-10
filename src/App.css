@@ -183,13 +183,13 @@ body {
     border: 2px solid #FB654A;
 }
 
-#about-me .section-title {
+.section-title {
     margin-top: 15px;
     font-size: 2.5vw;
     margin-bottom: 16px;
 }
 
-#about-me hr {
+hr.section-divider {
     margin-top: 0;
     margin-bottom: 20px;
     width: 10vw;
@@ -199,4 +199,16 @@ body {
     font-size: 1.5vw;
     width: 60vw;
     margin: 0 auto;
+}
+
+.about-me-text button:hover {
+    color: #FB654A;
+    border-color: #FB654A;
+}
+
+/* Portfolio Section */
+
+#portfolio {
+    background: #F1F1F1;
+    text-align: center;
 }

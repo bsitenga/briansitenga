@@ -72,20 +72,23 @@ function App() {
       <div id="about-me">
         <img src="WinterProfilePicCropped.jpg"></img>
         <p className="section-title">ABOUT ME</p>
-        <hr></hr>
+        <hr className="section-divider"></hr>
         <div className="about-me-text">
           <p>Hi, my name is Brian Sitenga.</p>
           <p>I'm earning my bachelor's of science in computer science and business at the University of Southern California.</p>
           <p>I love making interactive websites with the MERN stack and learning more about component-based architecture. I'm also very passionte about the environment, and I'm currently collaborating on a sustainability-focused project here.</p>
           <p>What I'm doing right now: Learning and making hobby projects in Angular</p>
+          <a href="/Brian_Sitenga_Resume.pdf" target="_blank"><button style={{marginTop: '12px'}}>Resumé <i class="far fa-file-alt"></i></button></a>
         </div>
-        <p className="section-title" style={{marginTop: "50px"}}>PORTFOLIO</p>
-        <hr></hr>
       </div>
 
       {/* Portfolio Section */}
       <div id="portfolio">
-        <h1>jo, U'b Ntoam</h1>
+        <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>PORTFOLIO</p>
+        <hr className="section-divider"></hr>
+        <div className="portfolio-items">
+          a
+        </div>
       </div>
 
       {/* Skills Section */}
