@@ -13,6 +13,7 @@ White: #FDFDFD */
 
 body {
     font-family: 'Prompt', sans-serif;
+    color: #222;
 }
 
 /* Bootstrap Navbar */
@@ -300,4 +301,58 @@ hr.section-divider {
 #contact a button:hover {
     color: #FB654A;
     border-color: #FB654A;
+}
+
+#contact .footer {
+    border-top: 2px solid #FB654A;
+    background: #DFDFDF;
+    height: 200px;
+}
+
+#contact .footer-contact {
+    margin-top: 50px;
+}
+
+#contact .footer-contact a {
+    display: inline-block;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    /* color: #111142; */
+    color: #999;
+    transition: 1s;
+}
+
+#contact .footer-contact a:hover {
+    text-decoration: none;
+}
+
+#contact .footer-contact i {
+    display: block;
+    font-size: 2.5vw;
+    margin-bottom: 4px;
+}
+
+#contact .footer-contact p {
+    display: inline-block;
+    font-size: 1.25vw;
+}
+
+#contact .footer-contact a.instagram:hover {
+    color: #E02C73;
+}
+
+#contact .footer-contact a.linkedin:hover {
+    color: #0077B5;
+}
+
+#contact .footer-contact a.github:hover {
+    color: #13181d;
+}
+
+#contact .footer-contact a.facebook:hover {
+    color: #4267b2;
+}
+
+#contact .footer-contact a.email:hover {
+    color: #D54B3D;
 }

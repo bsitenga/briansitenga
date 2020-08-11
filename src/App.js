@@ -90,9 +90,9 @@ function App() {
       <div id="portfolio">
         <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>PORTFOLIO</p>
         <hr className="section-divider"></hr>
-        <i style={{fontSize: '2.5vw', marginBottom: '12px'}} class="far fa-clipboard"></i>
-        <h3 style={{fontSize: '2vw'}}>My Recent Work</h3>
-        <p style={{fontSize: '1.4vw'}}>Here's a few projects I've worked on lately</p>
+        <i style={{ fontSize: '2.5vw', marginBottom: '12px' }} class="far fa-clipboard"></i>
+        <h3 style={{ fontSize: '2vw' }}>My Recent Work</h3>
+        <p style={{ fontSize: '1.4vw' }}>Here's a few projects I've worked on lately</p>
         <div className="portfolio-items">
           <Container>
             <Row>
@@ -101,7 +101,7 @@ function App() {
               <Col lg={4}><img src="RowloggerTestImage.PNG"></img></Col>
             </Row>
           </Container>
-          <a href="https://github.com/bsitenga" target="_blank"><button style={{fontSize: "1.5vw"}}>See More <i class="fab fa-github"></i></button></a>
+          <a href="https://github.com/bsitenga" target="_blank"><button style={{ fontSize: "1.5vw" }}>See More <i class="fab fa-github"></i></button></a>
         </div>
       </div>
 
@@ -192,12 +192,19 @@ function App() {
       <div id="contact">
         <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>CONTACT</p>
         <hr className="section-divider"></hr>
-        <i style={{fontSize: '2.5vw', marginBottom: '12px'}} class="far fa-paper-plane"></i>
-        <h3 style={{fontSize: '2vw'}}>Interested in Meeting?</h3>
-        <p style={{fontSize: '1.4vw'}}>Feel free to contact me if you have an interesting project you need done or just want to chat.</p>
-        <a href="mailto: bsitenga@gmail.com" target="_blank"><button style={{fontSize: "1.5vw", marginBottom: '12px'}}>Message Me! <i class="far fa-comment-alt"></i></button></a>
+        <i style={{ fontSize: '2.5vw', marginBottom: '12px' }} class="far fa-paper-plane"></i>
+        <h3 style={{ fontSize: '2vw' }}>Interested in Meeting?</h3>
+        <p style={{ fontSize: '1.4vw' }}>Feel free to contact me if you have an interesting project or just want to chat.</p>
+        <a href="mailto: bsitenga@gmail.com" target="_blank"><button style={{ fontSize: "1.5vw", marginBottom: '100px' }}>Message Me! <i class="far fa-comment-alt"></i></button></a>
         <div className="footer">
-
+          <div className="footer-contact">
+            <a className="instagram" href="https://www.instagram.com/brian.sitenga/?hl=en" target="_blank"><i class="fab fa-instagram"></i><p>Instagram</p></a>
+            <a className="linkedin" href="https://www.linkedin.com/in/bsitenga/" target="_blank"><i class="fab fa-linkedin-in"></i><p>Linkedin</p></a>
+            <a className="github" href="https://github.com/bsitenga" target="_blank"><i class="fab fa-github"></i><p>Github</p></a>
+            <a className="facebook" href="https://www.facebook.com/bsitenga" target="_blank"><i class="fab fa-facebook-f"></i><p>Facebook</p></a>
+            <a className="email" href="mailto: bsitenga@gmail.com" target="_blank"><i class="far fa-envelope"></i><p>Email</p></a>
+          </div>
+          <p style={{color:"#999", fontSize: "1.25vw"}}>Made with React, HTML, CSS, and Bootstrap</p>
         </div>
       </div>
     </div >
