@@ -90,6 +90,9 @@ function App() {
       <div id="portfolio">
         <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>PORTFOLIO</p>
         <hr className="section-divider"></hr>
+        <i style={{fontSize: '2.5vw', marginBottom: '12px'}} class="far fa-clipboard"></i>
+        <h3 style={{fontSize: '2vw'}}>My Recent Work</h3>
+        <p style={{fontSize: '1.4vw'}}>Here's a few projects I've worked on lately</p>
         <div className="portfolio-items">
           <Container>
             <Row>
@@ -98,7 +101,7 @@ function App() {
               <Col lg={4}><img src="RowloggerTestImage.PNG"></img></Col>
             </Row>
           </Container>
-          <a href="https://github.com/bsitenga" target="_blank"><button>See More <i class="fab fa-github"></i></button></a>
+          <a href="https://github.com/bsitenga" target="_blank"><button style={{fontSize: "1.5vw"}}>See More <i class="fab fa-github"></i></button></a>
         </div>
       </div>
 
@@ -189,10 +192,13 @@ function App() {
       <div id="contact">
         <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>CONTACT</p>
         <hr className="section-divider"></hr>
-        <i style={{fontSize: '3vw', marginBottom: '12px'}} class="far fa-paper-plane"></i>
-        <h3>Interested in a Project?</h3>
-        <p>Feel free to contact me if you have an interesting project you need done or just want to chat.</p>
-        <button>Message Me!</button>
+        <i style={{fontSize: '2.5vw', marginBottom: '12px'}} class="far fa-paper-plane"></i>
+        <h3 style={{fontSize: '2vw'}}>Interested in Meeting?</h3>
+        <p style={{fontSize: '1.4vw'}}>Feel free to contact me if you have an interesting project you need done or just want to chat.</p>
+        <a href="mailto: bsitenga@gmail.com" target="_blank"><button style={{fontSize: "1.5vw", marginBottom: '12px'}}>Message Me! <i class="far fa-comment-alt"></i></button></a>
+        <div className="footer">
+
+        </div>
       </div>
     </div >
   );
