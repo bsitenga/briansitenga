@@ -79,7 +79,7 @@ function App() {
         <hr className="section-divider"></hr>
         <div className="about-me-text">
           <p>Hi, my name is Brian Sitenga.</p>
-          <p>I'm earning my bachelor's of science in computer science and business at the University of Southern California.</p>
+          <p>I'm earning my bachelor's of science in computer science and business at the <a style={{ color: "#333" }} href="https://www.usc.edu/" target="_blank">University of Southern California.</a></p>
           <p>I love making interactive websites with the MERN stack and learning more about component-based architecture. I'm also very passionte about the environment, and I'm currently collaborating on a sustainability-focused project here.</p>
           <p>What I'm doing right now: Learning and making hobby projects with Angular</p>
           <a href="/Brian_Sitenga_Resume.pdf" target="_blank"><button style={{ marginTop: '12px' }}>Resumé <i class="far fa-file-alt"></i></button></a>
@@ -115,14 +115,18 @@ function App() {
                     <Card.Title style={{ fontSize: "2.5vw", color: "#2026B2" }}><i class="far fa-edit"></i></Card.Title>
                     <Card.Title style={{ fontSize: "2vw" }}>Design</Card.Title>
                     <Card.Text>
-                      <p className="subtitle">Things I design</p>
-                      <p className="subtext">App</p>
-                      <p className="subtext">Mobile</p>
-                      <p className="subtext">UI/UX</p>
-                      <p className="subtext" style={{ marginBottom: ".75rem" }}>Web</p>
-                      <p className="subtitle">Design Tools</p>
-                      <p className="subtext">Pen &amp; Paper</p>
-                      <p className="subtext">Photoshop</p>
+                      <div className="skills-top">
+                        <p className="subtitle">Things I design</p>
+                        <p className="subtext">App</p>
+                        <p className="subtext">Mobile</p>
+                        <p className="subtext">UI/UX</p>
+                        <p className="subtext" style={{ marginBottom: ".75rem" }}>Web</p>
+                      </div>
+                      <div className="skills-bottom">
+                        <p className="subtitle">Design Tools</p>
+                        <p className="subtext">Pen &amp; Paper</p>
+                        <p className="subtext">Photoshop</p>
+                      </div>
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -133,17 +137,21 @@ function App() {
                     <Card.Title style={{ fontSize: "2.5vw", color: "#2026B2" }}><i class="far fa-window-maximize"></i></Card.Title>
                     <Card.Title style={{ fontSize: "2vw" }}>Frontend</Card.Title>
                     <Card.Text>
-                      <p className="subtitle">Languages</p>
-                      <p className="subtext">CSS</p>
-                      <p className="subtext">HTML</p>
-                      <p className="subtext" style={{ marginBottom: ".75rem" }}>JavaScript (ES6)</p>
-                      <p className="subtitle">Technologies</p>
-                      <p className="subtext">Bootstrap</p>
-                      <p className="subtext">Flexbox</p>
-                      <p className="subtext">jQuery</p>
-                      <p className="subtext">React</p>
-                      <p className="subtext">React Native</p>
-                      <p className="subtext">Redux</p>
+                      <div className="skills-top">
+                        <p className="subtitle">Languages</p>
+                        <p className="subtext">CSS</p>
+                        <p className="subtext">HTML</p>
+                        <p className="subtext" style={{ marginBottom: ".75rem" }}>JavaScript (ES6)</p>
+                      </div>
+                      <div className="skills-bottom">
+                        <p className="subtitle">Technologies</p>
+                        <p className="subtext">Bootstrap</p>
+                        <p className="subtext">Flexbox</p>
+                        <p className="subtext">jQuery</p>
+                        <p className="subtext">React</p>
+                        <p className="subtext">React Native</p>
+                        <p className="subtext">Redux</p>
+                      </div>
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -154,16 +162,20 @@ function App() {
                     <Card.Title style={{ fontSize: "2.5vw", color: "#2026B2" }}><i class="fas fa-terminal"></i></Card.Title>
                     <Card.Title style={{ fontSize: "2vw" }}>Backend</Card.Title>
                     <Card.Text>
-                      <p className="subtitle">Languages</p>
-                      <p className="subtext">C++</p>
-                      <p className="subtext" style={{ marginBottom: ".75rem" }}>Java</p>
-                      <p className="subtitle">Technologies</p>
-                      <p className="subtext">Express.js</p>
-                      <p className="subtext">GraphQL</p>
-                      <p className="subtext">MongoDB</p>
-                      <p className="subtext">Node.js</p>
-                      <p className="subtext">NPM</p>
-                      <p className="subtext">WebSockets</p>
+                      <div className="skills-top">
+                        <p className="subtitle">Languages</p>
+                        <p className="subtext">C++</p>
+                        <p className="subtext" style={{ marginBottom: ".75rem" }}>Java</p>
+                      </div>
+                      <div className="skills-bottom">
+                        <p className="subtitle">Technologies</p>
+                        <p className="subtext">Express.js</p>
+                        <p className="subtext">GraphQL</p>
+                        <p className="subtext">MongoDB</p>
+                        <p className="subtext">Node.js</p>
+                        <p className="subtext">NPM</p>
+                        <p className="subtext">WebSockets</p>
+                      </div>
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -177,7 +189,10 @@ function App() {
       <div id="contact">
         <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>CONTACT</p>
         <hr className="section-divider"></hr>
-        a
+        <i style={{fontSize: '3vw', marginBottom: '12px'}} class="far fa-paper-plane"></i>
+        <h3>Interested in a Project?</h3>
+        <p>Feel free to contact me if you have an interesting project you need done or just want to chat.</p>
+        <button>Message Me!</button>
       </div>
     </div >
   );

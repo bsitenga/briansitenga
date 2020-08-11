@@ -254,6 +254,42 @@ hr.section-divider {
     margin-bottom: .2rem;
 }
 
+@media (min-width: 1280px) {
+    #skills .subtitle {
+        font-size: 20px;
+    }
+
+    #skills .subtext {
+        font-size: 18px;
+    }
+}
+
+#skills .skills-top {
+    height: 175px;
+}
+
+#skills .skills-bottom {
+    height: 225px;
+}
+
+@media (max-width: 991px) {
+    #skills .skills-top {
+        height: 125px;
+    }
+    
+    #skills .skills-bottom {
+        height: 180px;
+    }
+
+    #skills .subtitle {
+        font-size: 14px;
+    }
+
+    #skills .subtext {
+        font-size: 12px;
+    }
+}
+
 /* Contact Section */
 
 #contact {
