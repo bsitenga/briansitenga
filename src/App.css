@@ -306,11 +306,11 @@ hr.section-divider {
 #contact .footer {
     border-top: 2px solid #FB654A;
     background: #DFDFDF;
-    height: 200px;
+    height: 225px;
 }
 
 #contact .footer-contact {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 #contact .footer-contact a {
