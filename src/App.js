@@ -41,34 +41,34 @@ function App() {
             <h1>Hello, I'm Brian.</h1>
             <h4>I'm a fullstack developer working with {typistReset ? <Typist startDelay={500} avgTypingDelay={65} onTypingDone={() => setTypistReset(false)} >
               <span>React</span>
-              <Typist.Backspace count={20} delay={3000} />
+              <Typist.Backspace count={20} delay={2000} />
               <span>Express</span>
-              <Typist.Backspace count={20} delay={3000} />
+              <Typist.Backspace count={20} delay={2000} />
               <span>MongoDB</span>
-              <Typist.Backspace count={20} delay={3000} />
+              <Typist.Backspace count={20} delay={2000} />
               <span>GraphQL</span>
-              <Typist.Backspace count={20} delay={3000} />
+              <Typist.Backspace count={20} delay={2000} />
               <span>React Native</span>
-              <Typist.Backspace count={20} delay={3000} />
+              <Typist.Backspace count={20} delay={2000} />
               <span>Bootstrap</span>
-              <Typist.Backspace count={20} delay={3000} />
+              <Typist.Backspace count={20} delay={2000} />
               <span>Javascript</span>
-              <Typist.Backspace count={20} delay={3000} />
+              <Typist.Backspace count={20} delay={2000} />
               <span>C++</span>
-              <Typist.Backspace count={20} delay={3000} />
+              <Typist.Backspace count={20} delay={2000} />
             </Typist> : ""}</h4>
           </div>
           <hr></hr>
           <div className="welcome-contact">
-            <a className="instagram" href="https://www.instagram.com/brian.sitenga/?hl=en" target="_blank"><i class="fab fa-instagram"></i><p>Instagram</p></a>
-            <a className="linkedin" href="https://www.linkedin.com/in/bsitenga/" target="_blank"><i class="fab fa-linkedin-in"></i><p>Linkedin</p></a>
-            <a className="github" href="https://github.com/bsitenga" target="_blank"><i class="fab fa-github"></i><p>Github</p></a>
-            <a className="facebook" href="https://www.facebook.com/bsitenga" target="_blank"><i class="fab fa-facebook-f"></i><p>Facebook</p></a>
-            <a className="email" href="mailto: bsitenga@gmail.com" target="_blank"><i class="far fa-envelope"></i><p>Email</p></a>
+            <a className="instagram" href="https://www.instagram.com/brian.sitenga/?hl=en" target="_blank"><i className="fab fa-instagram"></i><p>Instagram</p></a>
+            <a className="linkedin" href="https://www.linkedin.com/in/bsitenga/" target="_blank"><i className="fab fa-linkedin-in"></i><p>Linkedin</p></a>
+            <a className="github" href="https://github.com/bsitenga" target="_blank"><i className="fab fa-github"></i><p>Github</p></a>
+            <a className="facebook" href="https://www.facebook.com/bsitenga" target="_blank"><i className="fab fa-facebook-f"></i><p>Facebook</p></a>
+            <a className="email" href="mailto: bsitenga@gmail.com" target="_blank"><i className="far fa-envelope"></i><p>Email</p></a>
           </div>
         </div>
         <div className="scroll-down">
-          <i class="fas fa-chevron-down" onClick={() => { window.scrollTo({ top: 450, left: 0, behavior: 'smooth' }) }}></i>
+          <i className="fas fa-chevron-down" onClick={() => { window.scrollTo({ top: window.innerHeight / 1.1, left: 0, behavior: 'smooth' }) }}></i>
         </div>
       </div>
 
@@ -101,7 +101,7 @@ function App() {
               <Col lg={4}><img src="RowloggerTestImage.PNG"></img></Col>
             </Row>
           </Container>
-          <a href="https://github.com/bsitenga" target="_blank"><button style={{ fontSize: "1.5vw" }}>See More <i class="fab fa-github"></i></button></a>
+          <a href="https://github.com/bsitenga" target="_blank"><button style={{ fontSize: "1.75vw" }}>See More <i class="fab fa-github"></i></button></a>
         </div>
       </div>
 
@@ -115,12 +115,11 @@ function App() {
               <Col lg={4} style={{ padding: "0" }}>
                 <Card>
                   <Card.Body style={{ paddingTop: '5vh' }}>
-                    <Card.Title style={{ fontSize: "2.5vw", color: "#2026B2" }}><i class="far fa-edit"></i></Card.Title>
-                    <Card.Title style={{ fontSize: "2vw" }}>Design</Card.Title>
+                    <Card.Title style={{ fontSize: "2.75vw", color: "#2026B2" }}><i class="far fa-edit"></i></Card.Title>
+                    <Card.Title style={{ fontSize: "2.75vw" }}>Design</Card.Title>
                     <Card.Text>
                       <div className="skills-top">
                         <p className="subtitle">Things I design</p>
-                        <p className="subtext">App</p>
                         <p className="subtext">Mobile</p>
                         <p className="subtext">UI/UX</p>
                         <p className="subtext" style={{ marginBottom: ".75rem" }}>Web</p>
@@ -137,8 +136,8 @@ function App() {
               <Col lg={4} style={{ padding: "0" }}>
                 <Card>
                   <Card.Body style={{ paddingTop: '5vh' }}>
-                    <Card.Title style={{ fontSize: "2.5vw", color: "#2026B2" }}><i class="far fa-window-maximize"></i></Card.Title>
-                    <Card.Title style={{ fontSize: "2vw" }}>Frontend</Card.Title>
+                    <Card.Title style={{ fontSize: "2.75vw", color: "#2026B2" }}><i class="far fa-window-maximize"></i></Card.Title>
+                    <Card.Title style={{ fontSize: "2.75vw" }}>Frontend</Card.Title>
                     <Card.Text>
                       <div className="skills-top">
                         <p className="subtitle">Languages</p>
@@ -162,8 +161,8 @@ function App() {
               <Col lg={4} style={{ padding: "0" }}>
                 <Card>
                   <Card.Body style={{ paddingTop: '5vh' }}>
-                    <Card.Title style={{ fontSize: "2.5vw", color: "#2026B2" }}><i class="fas fa-terminal"></i></Card.Title>
-                    <Card.Title style={{ fontSize: "2vw" }}>Backend</Card.Title>
+                    <Card.Title style={{ fontSize: "2.75vw", color: "#2026B2" }}><i class="fas fa-terminal"></i></Card.Title>
+                    <Card.Title style={{ fontSize: "2.75vw" }}>Backend</Card.Title>
                     <Card.Text>
                       <div className="skills-top">
                         <p className="subtitle">Languages</p>
@@ -195,7 +194,7 @@ function App() {
         <i style={{ fontSize: '2.5vw', marginBottom: '12px' }} class="far fa-paper-plane"></i>
         <h3 style={{ fontSize: '2vw' }}>Interested in Meeting?</h3>
         <p style={{ fontSize: '1.4vw' }}>Feel free to contact me if you have an interesting project or just want to chat.</p>
-        <a href="mailto: bsitenga@gmail.com" target="_blank"><button style={{ fontSize: "1.5vw", marginBottom: '100px' }}>Message Me! <i class="far fa-comment-alt"></i></button></a>
+        <a href="mailto: bsitenga@gmail.com" target="_blank"><button style={{ fontSize: "1.75vw", marginBottom: '15vw' }}>Message Me! <i class="far fa-comment-alt"></i></button></a>
         <div className="footer">
           <div className="footer-contact">
             <a className="instagram" href="https://www.instagram.com/brian.sitenga/?hl=en" target="_blank"><i class="fab fa-instagram"></i><p>Instagram</p></a>
