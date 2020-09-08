@@ -92,13 +92,22 @@ function App() {
         <hr className="section-divider"></hr>
         <i style={{ fontSize: '2.5vw', marginBottom: '12px' }} class="far fa-clipboard"></i>
         <h3 style={{ fontSize: '2vw' }}>My Recent Work</h3>
-        <p style={{ fontSize: '1.4vw' }}>Here's a few projects I've worked on lately</p>
+        <p style={{ fontSize: '1.4vw' }}>Here are a few projects I've worked on lately</p>
         <div className="portfolio-items">
           <Container>
             <Row>
-              <Col lg={4}><img src="RowloggerTestImage.PNG"></img></Col>
-              <Col lg={4}><img src="RowloggerTestImage.PNG"></img></Col>
-              <Col lg={4}><img src="RowloggerTestImage.PNG"></img></Col>
+              <Col lg={4}>
+                <div className="overlay-container">
+                  <img src="RowloggerCropped.PNG"></img>
+                  <div className="hover-text">
+                    <div className="logo">Logo</div>
+                    <div className="header">Header</div>
+                    <div className="description">Description</div>
+                  </div>
+                </div>
+              </Col>
+              <Col lg={4}><img src="RowloggerCropped.PNG"></img></Col>
+              <Col lg={4}><img src="CurentCropped.jpg"></img></Col>
             </Row>
           </Container>
           <a href="https://github.com/bsitenga" target="_blank"><button style={{ fontSize: "1.75vw" }}>See More <i class="fab fa-github"></i></button></a>
@@ -203,7 +212,7 @@ function App() {
             <a className="facebook" href="https://www.facebook.com/bsitenga" target="_blank"><i class="fab fa-facebook-f"></i><p>Facebook</p></a>
             <a className="email" href="mailto: bsitenga@gmail.com" target="_blank"><i class="far fa-envelope"></i><p>Email</p></a>
           </div>
-          <p style={{color:"#999", fontSize: "1.25vw"}}>Made with React, HTML, CSS, and Bootstrap</p>
+          <p style={{ color: "#999", fontSize: "1.25vw" }}>Made with React, HTML, CSS, and Bootstrap</p>
         </div>
       </div>
     </div >

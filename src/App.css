@@ -216,6 +216,11 @@ hr.section-divider {
     padding-bottom: 15vh;
 }
 
+#portfolio .overlay-container {
+    position: relative;
+    width: 100%;
+}
+
 #portfolio img {
     width: 100%;
     max-width: 60vw;
@@ -224,9 +229,33 @@ hr.section-divider {
     margin-bottom: 35px;
 }
 
+#portfolio .hover-text {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    filter: opacity(0);
+    transition: 1s;
+    pointer-events: none;
+    font-size: 1vw;
+}
+
+@media (max-width: 660px) {
+    #portfolio .hover-text {
+        font-size: 5vw;
+    }
+}
+
 #portfolio img:hover {
     filter: brightness(50%);
     cursor: pointer;
+}
+
+#portfolio img:hover + .hover-text {
+    filter: opacity(1);
 }
 
 #portfolio button:hover {
