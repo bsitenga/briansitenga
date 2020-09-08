@@ -100,9 +100,10 @@ function App() {
                 <div className="overlay-container">
                   <img src="RowloggerCropped.PNG"></img>
                   <div className="hover-text">
-                    <div className="logo">Logo</div>
-                    <div className="header">Header</div>
-                    <div className="description">Description</div>
+                    <div className="logo rowlogger-header">Row<span style={{color: "#f86a5f"}}>Logger</span></div>
+                    <div className="header">RowLogger - Manage Erg Workouts</div>
+                    <div className="description">Technologies: Axios, Bootstrap, Express, JWT, MongoDB, Mongoose, React</div>
+                    <div className="click-me">Click for ReadMe</div>
                   </div>
                 </div>
               </Col>
@@ -153,8 +154,9 @@ function App() {
                       </div>
                       <div className="skills-bottom">
                         <p className="subtitle">Design Tools</p>
+                        <p className="subtext">Figma</p>
                         <p className="subtext">Pen &amp; Paper</p>
-                        <p className="subtext">Photoshop</p>
+                        <p className="subtext">Photoshop CS6</p>
                       </div>
                     </Card.Text>
                   </Card.Body>
