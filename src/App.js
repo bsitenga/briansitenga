@@ -106,8 +106,26 @@ function App() {
                   </div>
                 </div>
               </Col>
-              <Col lg={4}><img src="RowloggerCropped.PNG"></img></Col>
-              <Col lg={4}><img src="CurentCropped.jpg"></img></Col>
+              <Col lg={4}>
+                <div className="overlay-container">
+                  <img src="RowloggerCropped.PNG"></img>
+                  <div className="hover-text">
+                    <div className="logo">Logo</div>
+                    <div className="header">Header</div>
+                    <div className="description">Description</div>
+                  </div>
+                </div>
+              </Col>
+              <Col lg={4}>
+                <div className="overlay-container">
+                  <img src="CurentCropped.jpg"></img>
+                  <div className="hover-text">
+                    <div className="logo">Logo</div>
+                    <div className="header">Header</div>
+                    <div className="description">Description</div>
+                  </div>
+                </div>
+              </Col>
             </Row>
           </Container>
           <a href="https://github.com/bsitenga" target="_blank"><button style={{ fontSize: "1.75vw" }}>See More <i class="fab fa-github"></i></button></a>
