@@ -108,7 +108,7 @@ function App() {
               </Col>
               <Col lg={4}>
                 <div className="overlay-container">
-                  <img src="CurateCropped.PNG"></img>
+                  <img src="CurateCropped.png"></img>
                   <div className="hover-text">
                     <div className="logo curate-logo"><img src="Spotter.png" /></div>
                     <div className="header">Curate - Playlist Generator</div>
