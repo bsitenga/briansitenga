@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 /* COLOR SCHEME: Bright Accent - Blue/Violet base, Red/Orange accents */
 
 /* Main Background: #2026B2,
@@ -252,6 +253,20 @@ hr.section-divider {
     padding-bottom: 5%;
 }
 
+#portfolio .hover-text .curent-header {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.5vw;
+    margin-bottom: 0;
+    padding-bottom: 5%;
+    color: #3ec1c9;
+}
+
+#portfolio .hover-text .curate-logo {
+    text-align: center;
+    margin-left: 40%;
+    width: 20%;
+}
+
 #portfolio img:hover {
     filter: brightness(30%);
     cursor: pointer;
@@ -273,6 +288,10 @@ hr.section-divider {
 
     #portfolio .hover-text .rowlogger-header {
         font-size: 5vw;
+    }
+
+    #portfollio .hover-text .curent-header {
+        font-size: 3.2vw;
     }
 }
 

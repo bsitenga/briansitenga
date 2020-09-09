@@ -102,18 +102,17 @@ function App() {
                   <div className="hover-text">
                     <div className="logo rowlogger-header">Row<span style={{color: "#f86a5f"}}>Logger</span></div>
                     <div className="header">RowLogger - Manage Erg Workouts</div>
-                    <div className="description">Technologies: Axios, Bootstrap, Express, JWT, MongoDB, Mongoose, React</div>
-                    <div className="click-me">Click for ReadMe</div>
+                    <div className="description">Technologies: Axios, Bootstrap, Express, JWT, MongoDB, Mongoose, Node.js, React</div>
                   </div>
                 </div>
               </Col>
               <Col lg={4}>
                 <div className="overlay-container">
-                  <img src="RowloggerCropped.PNG"></img>
+                  <img src="CurateCropped.PNG"></img>
                   <div className="hover-text">
-                    <div className="logo">Logo</div>
-                    <div className="header">Header</div>
-                    <div className="description">Description</div>
+                    <div className="logo curate-logo"><img src="Spotter.png" /></div>
+                    <div className="header">Curate - Playlist Generator</div>
+                    <div className="description">Technologies: Axios, Bootstrap, Express, JWT, Node.js, React, Spotify API</div>
                   </div>
                 </div>
               </Col>
@@ -121,9 +120,9 @@ function App() {
                 <div className="overlay-container">
                   <img src="CurentCropped.jpg"></img>
                   <div className="hover-text">
-                    <div className="logo">Logo</div>
-                    <div className="header">Header</div>
-                    <div className="description">Description</div>
+                    <div className="logo curent-header">CURENT</div>
+                    <div className="header">Curent - Daily News Quizzes</div>
+                    <div className="description">Technologies: Express, MongoDB, Node.js Passport, React, Underscore.js</div>
                   </div>
                 </div>
               </Col>
