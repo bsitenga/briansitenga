@@ -80,7 +80,7 @@ function App() {
         <div className="about-me-text">
           <p>Hi, my name is Brian Sitenga.</p>
           <p>I'm earning my bachelor's of science in computer science and business at the <a style={{ color: "#333" }} href="https://www.usc.edu/" target="_blank">University of Southern California.</a></p>
-          <p>I love making interactive websites with the MERN stack and learning more about component-based architecture. I'm also very passionte about the environment, and I'm currently collaborating on a sustainability-focused project here.</p>
+          <p>I love making interactive websites with the MERN stack and learning more about component-based architecture. I'm also very passionate about the environment, and I'm currently collaborating on a sustainability-focused project.</p>
           <p>What I'm doing right now: Learning and making hobby projects with Angular</p>
           <a href="/Brian_Sitenga_Resume.pdf" target="_blank"><button style={{ marginTop: '12px' }}>Resumé <i class="far fa-file-alt"></i></button></a>
         </div>
