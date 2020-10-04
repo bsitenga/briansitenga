@@ -266,6 +266,11 @@ hr.section-divider {
     padding-bottom: 15vh;
 }
 
+#portfolio .portfolio-icon {
+    font-size: 2.5vw;
+    margin-bottom: 12px;
+}
+
 #portfolio .overlay-container {
     position: relative;
     width: 100%;
@@ -357,6 +362,9 @@ hr.section-divider {
     #portfolio {
         padding-bottom: 6vh;
     }
+    #portfolio .portfolio-icon {
+        font-size: 6vw;
+    }
     #portfolio .portfolio-subheader {
         font-size: 5vw;
     }
@@ -440,6 +448,11 @@ hr.section-divider {
     background: #F1F1F1;
 }
 
+#contact .contact-icon {
+    font-size: 2.5vw;
+    margin-bottom: 12px;
+}
+
 #contact a button:hover {
     color: #FB654A;
     border-color: #FB654A;
@@ -497,4 +510,10 @@ hr.section-divider {
 
 #contact .footer-contact a.email:hover {
     color: #D54B3D;
+}
+
+@media (max-width: 660px) {
+    #contact .contact-icon {
+        font-size: 6vw;
+    }
 }

@@ -90,7 +90,7 @@ function App() {
       <div id="portfolio">
         <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>PORTFOLIO</p>
         <hr className="section-divider"></hr>
-        <i style={{ fontSize: '2.5vw', marginBottom: '12px' }} class="far fa-clipboard"></i>
+        <i className="portfolio-icon" class="far fa-clipboard portfolio-icon"></i>
         <h3 className="portfolio-subheader">My Recent Work</h3>
         <p className="portfolio-text">Here are a few projects I've worked on lately</p>
         <div className="portfolio-items">
@@ -219,7 +219,7 @@ function App() {
       <div id="contact">
         <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>CONTACT</p>
         <hr className="section-divider"></hr>
-        <i style={{ fontSize: '2.5vw', marginBottom: '12px' }} class="far fa-paper-plane"></i>
+        <i className="contact-icon" class="far fa-paper-plane contact-icon"></i>
         <h3 style={{ fontSize: '2vw' }}>Interested in Meeting?</h3>
         <p style={{ fontSize: '1.4vw' }}>Feel free to contact me if you have an interesting project or just want to chat.</p>
         <a href="mailto: bsitenga@gmail.com" target="_blank"><button style={{ fontSize: "1.75vw", marginBottom: '15vw' }}>Message Me! <i class="far fa-comment-alt"></i></button></a>
