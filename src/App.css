@@ -279,6 +279,14 @@ hr.section-divider {
     width: 100%;
 }
 
+#portfolio .portfolio-subheader {
+    font-size: 2vw;
+}
+
+#portfolio .portfolio-text {
+    font-size: 1.4vw;
+}
+
 #portfolio img {
     width: 100%;
     max-width: 60vw;
@@ -332,6 +340,10 @@ hr.section-divider {
     filter: opacity(1);
 }
 
+#portfolio .portfolio-button {
+    font-size: 1.75vw;
+}
+
 #portfolio button:hover {
     color: #FB654A;
     border-color: #FB654A;
@@ -348,6 +360,25 @@ hr.section-divider {
 
     #portfollio .hover-text .curent-header {
         font-size: 3.2vw;
+    }
+}
+
+@media (max-width: 660px) {
+    #portfolio {
+        padding-bottom: 6vh;
+    }
+
+    #portfolio .portfolio-subheader {
+        font-size: 5vw;
+    }
+    
+    #portfolio .portfolio-text {
+        font-size: 4vw;
+        padding-bottom: 3vh;
+    }
+
+    #portfolio .portfolio-button {
+        font-size: 4vw;
     }
 }
 

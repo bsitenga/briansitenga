@@ -91,8 +91,8 @@ function App() {
         <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>PORTFOLIO</p>
         <hr className="section-divider"></hr>
         <i style={{ fontSize: '2.5vw', marginBottom: '12px' }} class="far fa-clipboard"></i>
-        <h3 style={{ fontSize: '2vw' }}>My Recent Work</h3>
-        <p style={{ fontSize: '1.4vw' }}>Here are a few projects I've worked on lately</p>
+        <h3 className="portfolio-subheader">My Recent Work</h3>
+        <p className="portfolio-text">Here are a few projects I've worked on lately</p>
         <div className="portfolio-items">
           <Container>
             <Row>
@@ -128,7 +128,7 @@ function App() {
               </Col>
             </Row>
           </Container>
-          <a href="https://github.com/bsitenga" target="_blank"><button style={{ fontSize: "1.75vw" }}>See More <i class="fab fa-github"></i></button></a>
+          <a href="https://github.com/bsitenga" target="_blank"><button className="portfolio-button">See More <i class="fab fa-github"></i></button></a>
         </div>
       </div>
 
