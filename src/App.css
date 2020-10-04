@@ -37,7 +37,7 @@ body {
 
 @media (max-width: 660px) {
     .nav-link {
-        font-size: 7px;
+        font-size: 8px;
     }
 }
 
@@ -167,6 +167,32 @@ body {
 
 #welcome .scroll-down i:hover {
     cursor: pointer;
+}
+
+@media (max-width: 660px) {
+    #welcome h1 {
+        margin-top: 15vh;
+        color: #FDFDFD;
+        font-size: 10vw;
+    }
+    
+    #welcome h4 {
+        color: #FDFDFD;
+        font-size: 3.5vw;
+    }
+
+    #welcome hr {
+        width: 85vw;
+    }
+
+    #welcome .welcome-contact i {
+        font-size: 8vw;
+    }
+    
+    #welcome .welcome-contact p {
+        display: inline-block;
+        font-size: 3vw;
+    }
 }
 
 /* About Section */
