@@ -453,6 +453,19 @@ hr.section-divider {
     margin-bottom: 12px;
 }
 
+#contact .contact-header {
+    font-size: 2vw;
+}
+
+#contact .contact-text {
+    font-size: 1.4vw;
+}
+
+#contact .contact-button {
+    font-size: 1.75vw;
+    margin-bottom: 15vw;
+}
+
 #contact a button:hover {
     color: #FB654A;
     border-color: #FB654A;
@@ -472,7 +485,6 @@ hr.section-divider {
     display: inline-block;
     margin-right: 2vw;
     margin-left: 2vw;
-    /* color: #111142; */
     color: #999;
     transition: 1s;
 }
@@ -512,8 +524,33 @@ hr.section-divider {
     color: #D54B3D;
 }
 
+#contact .footer-message {
+    color: #999;
+    font-size: 1.25vw;
+}
+
 @media (max-width: 660px) {
     #contact .contact-icon {
         font-size: 6vw;
+    }
+    #contact .contact-header {
+        font-size: 5vw;
+    }
+    #contact .contact-text {
+        font-size: 4vw;
+    }
+    #contact .contact-button {
+        font-size: 4vw;
+        margin-bottom: 8vw;
+    }
+    #contact .footer-contact i {
+        font-size: 8vw;
+    }
+    #contact .footer-contact p {
+        font-size: 3vw;
+    }
+    #contact .footer-message {
+        color: #999;
+        font-size: 3vw;
     }
 }

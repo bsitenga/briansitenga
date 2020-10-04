@@ -220,9 +220,9 @@ function App() {
         <p className="section-title" style={{ paddingTop: "35px", marginTop: "0" }}>CONTACT</p>
         <hr className="section-divider"></hr>
         <i className="contact-icon" class="far fa-paper-plane contact-icon"></i>
-        <h3 style={{ fontSize: '2vw' }}>Interested in Meeting?</h3>
-        <p style={{ fontSize: '1.4vw' }}>Feel free to contact me if you have an interesting project or just want to chat.</p>
-        <a href="mailto: bsitenga@gmail.com" target="_blank"><button style={{ fontSize: "1.75vw", marginBottom: '15vw' }}>Message Me! <i class="far fa-comment-alt"></i></button></a>
+        <h3 className="contact-header">Interested in Meeting?</h3>
+        <p className="contact-text">Feel free to contact me if you have an interesting project or just want to chat.</p>
+        <a href="mailto: bsitenga@gmail.com" target="_blank"><button className="contact-button">Message Me! <i class="far fa-comment-alt"></i></button></a>
         <div className="footer">
           <div className="footer-contact">
             <a className="instagram" href="https://www.instagram.com/brian.sitenga/?hl=en" target="_blank"><i class="fab fa-instagram"></i><p>Instagram</p></a>
@@ -231,7 +231,7 @@ function App() {
             <a className="facebook" href="https://www.facebook.com/bsitenga" target="_blank"><i class="fab fa-facebook-f"></i><p>Facebook</p></a>
             <a className="email" href="mailto: bsitenga@gmail.com" target="_blank"><i class="far fa-envelope"></i><p>Email</p></a>
           </div>
-          <p style={{ color: "#999", fontSize: "1.25vw" }}>Made with React, HTML, CSS, and Bootstrap</p>
+          <p className="footer-message">Made with React, Bootstrap, and <i class="far fa-heart"></i></p>
         </div>
       </div>
     </div >
