@@ -175,20 +175,16 @@ body {
         color: #FDFDFD;
         font-size: 10vw;
     }
-    
     #welcome h4 {
         color: #FDFDFD;
         font-size: 3.5vw;
     }
-
     #welcome hr {
         width: 85vw;
     }
-
     #welcome .welcome-contact i {
         font-size: 8vw;
     }
-    
     #welcome .welcome-contact p {
         display: inline-block;
         font-size: 3vw;
@@ -240,26 +236,22 @@ hr.section-divider {
     #about-me {
         padding-bottom: 6vh;
     }
-
     #about-me img {
         margin-top: 5vh;
         width: 30vw;
     }
-
     .section-title {
         margin-top: 15px;
         font-size: 6vw;
         margin-bottom: 10px;
         color: #222;
     }
-
     hr.section-divider {
         margin-top: 0;
         margin-bottom: 20px;
         width: 40vw;
         background-color: #F64C72;
     }
-
     #about-me .about-me-text {
         font-size: 4vw;
         width: 90vw;
@@ -336,7 +328,7 @@ hr.section-divider {
     cursor: pointer;
 }
 
-#portfolio img:hover + .hover-text {
+#portfolio img:hover+.hover-text {
     filter: opacity(1);
 }
 
@@ -353,11 +345,9 @@ hr.section-divider {
     #portfolio .hover-text {
         font-size: 2.5vw;
     }
-
     #portfolio .hover-text .rowlogger-header {
         font-size: 5vw;
     }
-
     #portfollio .hover-text .curent-header {
         font-size: 3.2vw;
     }
@@ -367,16 +357,13 @@ hr.section-divider {
     #portfolio {
         padding-bottom: 6vh;
     }
-
     #portfolio .portfolio-subheader {
         font-size: 5vw;
     }
-    
     #portfolio .portfolio-text {
         font-size: 4vw;
         padding-bottom: 3vh;
     }
-
     #portfolio .portfolio-button {
         font-size: 4vw;
     }
@@ -388,6 +375,15 @@ hr.section-divider {
     text-align: center;
     background: #F1F1F1;
     padding-bottom: 15vh;
+}
+
+#skills .skills-icon {
+    font-size: 2.75vw;
+    color: #2026B2;
+}
+
+#skills .skills-title {
+    font-size: 2.75vw
 }
 
 #skills .subtitle {
@@ -407,6 +403,34 @@ hr.section-divider {
 
 #skills .skills-bottom {
     height: 18vw;
+}
+
+@media (max-width: 660px) {
+    #skills {
+        padding-bottom: 6vh;
+    }
+    #skills .skills-icon {
+        font-size: 5vw;
+        color: #2026B2;
+    }
+    #skills .skills-title {
+        font-size: 6vw
+    }
+    #skills .subtitle {
+        font-size: 4.5vw;
+        color: #2026B2;
+        margin-bottom: .3rem;
+    }
+    #skills .subtext {
+        font-size: 4vw;
+        margin-bottom: .5rem;
+    }
+    #skills .skills-top {
+        height: 32vw;
+    }
+    #skills .skills-bottom {
+        height: 55vw;
+    }
 }
 
 /* Contact Section */

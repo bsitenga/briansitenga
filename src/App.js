@@ -142,8 +142,8 @@ function App() {
               <Col lg={4} style={{ padding: "0" }}>
                 <Card>
                   <Card.Body style={{ paddingTop: '5vh' }}>
-                    <Card.Title style={{ fontSize: "2.75vw", color: "#2026B2" }}><i class="far fa-edit"></i></Card.Title>
-                    <Card.Title style={{ fontSize: "2.75vw" }}>Design</Card.Title>
+                    <Card.Title className="skills-icon"><i class="far fa-edit"></i></Card.Title>
+                    <Card.Title className="skills-title">Design</Card.Title>
                     <Card.Text>
                       <div className="skills-top">
                         <p className="subtitle">Things I design</p>
@@ -164,8 +164,8 @@ function App() {
               <Col lg={4} style={{ padding: "0" }}>
                 <Card>
                   <Card.Body style={{ paddingTop: '5vh' }}>
-                    <Card.Title style={{ fontSize: "2.75vw", color: "#2026B2" }}><i class="far fa-window-maximize"></i></Card.Title>
-                    <Card.Title style={{ fontSize: "2.75vw" }}>Frontend</Card.Title>
+                    <Card.Title className="skills-icon"><i class="far fa-window-maximize"></i></Card.Title>
+                    <Card.Title className="skills-title">Frontend</Card.Title>
                     <Card.Text>
                       <div className="skills-top">
                         <p className="subtitle">Languages</p>
@@ -189,8 +189,8 @@ function App() {
               <Col lg={4} style={{ padding: "0" }}>
                 <Card>
                   <Card.Body style={{ paddingTop: '5vh' }}>
-                    <Card.Title style={{ fontSize: "2.75vw", color: "#2026B2" }}><i class="fas fa-terminal"></i></Card.Title>
-                    <Card.Title style={{ fontSize: "2.75vw" }}>Backend</Card.Title>
+                    <Card.Title className="skills-icon"><i class="fas fa-terminal"></i></Card.Title>
+                    <Card.Title className="skills-title">Backend</Card.Title>
                     <Card.Text>
                       <div className="skills-top">
                         <p className="subtitle">Languages</p>
