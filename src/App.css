@@ -236,6 +236,36 @@ hr.section-divider {
     border-color: #FB654A;
 }
 
+@media (max-width: 660px) {
+    #about-me {
+        padding-bottom: 6vh;
+    }
+
+    #about-me img {
+        margin-top: 5vh;
+        width: 30vw;
+    }
+
+    .section-title {
+        margin-top: 15px;
+        font-size: 6vw;
+        margin-bottom: 10px;
+        color: #222;
+    }
+
+    hr.section-divider {
+        margin-top: 0;
+        margin-bottom: 20px;
+        width: 40vw;
+        background-color: #F64C72;
+    }
+
+    #about-me .about-me-text {
+        font-size: 4vw;
+        width: 90vw;
+    }
+}
+
 /* Portfolio Section */
 
 #portfolio {
